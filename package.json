@@ -1,0 +1,17 @@
+{
+    "name": "rg-unity-starter-template",
+    "version": "1.0.0",
+    "description": "Official Regression Games starter template for programming Unity Bots using our JavaScript SDK",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Regression Games, Inc",
+    "license": "ISC",
+    "dependencies": {
+      "@types/node": "18.0.6",
+      "node-fetch": "3.3.0",
+      "rg-match-info": "1.1.0"
+    }
+  }
