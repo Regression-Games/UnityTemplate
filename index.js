@@ -3,6 +3,7 @@
  * See our [API Documentation]{@link https://docs.regression.gg/studios/unity/unity-sdk/creating-bots/configuration} for available configuration options and values.
  */
 export function configureBot(rg) {
+
     rg.isSpawnable = true;
     rg.lifecycle = "MANAGED";
     rg.characterConfig = { 
@@ -21,9 +22,9 @@ export function configureBot(rg) {
  */
 export async function processTick(rg) {
 
-    console.log("Tick #: ", rg.getState().tick);
-    console.log("Scene Name: ", rg.getState().sceneName);
-    console.log("Entities in state: ", Object.keys(rg.getState().gameState).length);
+    console.log("Tick #:", rg.getState().tick);
+    console.log("Scene Name:", rg.getState().sceneName);
+    console.log("Entities in state:", Object.keys(rg.getState().gameState).length);
 }
 
 /**
